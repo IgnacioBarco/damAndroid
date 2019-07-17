@@ -1,0 +1,7 @@
+No he conseguido hacer que el calculo, que me hace cosas raras y no se en que falla
+El tema del array si lo hace bien y recupera los numeros guardados.
+Funciona con la API 24, con la 21 no saca el teclado(aunque funciona con el teclado del ordenador), y tampoco tengo ni idea el porqué...
+El tema cambio de icono y distintas resoluciones no lo he podido mirar, la he estado probando con la 1080*1920:xxhdpi
+
+
+

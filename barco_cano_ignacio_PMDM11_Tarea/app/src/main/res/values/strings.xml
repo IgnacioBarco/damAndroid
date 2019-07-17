@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Primera Tarea</string>
+    <string name="boton">Calcular!</string>
+    <string name="texto1">Calculadora de números primos:</string>
+    <string name="texto2">Introduce qué numero primo quieres calcular. Por ejemplo, si deseas saber el sexto número primo, pon el numero 6 y dale a calcular. Te dirá que el sexto número primo es el 11</string>
+    <string name="texto3">Posición:</string>
+</resources>
