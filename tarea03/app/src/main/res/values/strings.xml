@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">tarea03</string>
+    <string name="porcentaje_bateria">%Bateria</string>
+    <string name="emails">Direcciones de correo para enviar</string>
+    <string name="boton_seleccion_contactos">Contacto</string>
+    <string name="boton_guardar">Guardar</string>
+    <string name="bEnviar">Enviar ahora</string>
+    <string name="bFormulario">opciones</string>
+    <string name="checkbox_sms">Activar aviso por Email</string>
+    <string name="checkbox_SMS">Activar aviso por SMS</string>
+</resources>

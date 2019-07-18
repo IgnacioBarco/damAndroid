@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Tarea05</string>
+    <string name="instrucciones">En este juego se te premiara al acertar la figura que has elegido con un punto, si esta girando te daremos 5 puntos, y si tiene el color que has elegido, se multiplicara por cuatro.\n
+      \n\n  Si en cambio no das a la figura elegida y esta llega al suelo te penalizaremos con 1 punto si no gira, y si gira te quitaremos 10.</string>
+</resources>

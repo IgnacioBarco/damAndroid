@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">tarea04</string>
+    <string name="opciones_video">Grabar video</string>
+    <string name="opciones_fotos">Hacer fotografía</string>
+    <string name="calidad_baja">Calidad baja</string>
+    <string name="calidad_alta">Calidad alta</string>
+    <string name="duracion_maxima">Duración máxima</string>
+    <string name="boton_grabar">Grabar</string>
+    <string name="boton_fotos">Hacer foto</string>
+    <string name="nombre_foto">Nombre foto</string>
+    <string name="ruta_foto">Carpeta</string>
+</resources>
