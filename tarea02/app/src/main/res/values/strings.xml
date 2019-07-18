@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">tarea02</string>
+    <string name="menu_instrucciones">Instrucciones</string>
+    <string name="menu_configurar">Configurar</string>
+    <string name="menu_juego">Jugar!</string>
+    <string name="texto_arriba">3 en raya!!!</string>
+    <string name="un_jugador">1 jugador</string>
+    <string name="dos_jugadores">2 jugadores</string>
+</resources>

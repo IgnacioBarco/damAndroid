@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.nacho.tarea02.MainActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:showIn="@layout/activity_main">
+
+    <TableLayout
+        android:id="@+id/tablero"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvJugadorActual"
+        app:layout_constraintVertical_bias="0.498">
+
+        <TableRow
+            android:id="@+id/fila1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:gravity="center_horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton1"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_margin="0dp"
+                android:adjustViewBounds="true"
+                android:clickable="false"
+                android:elevation="10dp"
+                android:padding="0dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ic_close_black_24dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_margin="0dp"
+                android:adjustViewBounds="true"
+                android:clickable="false"
+                android:elevation="10dp"
+                android:padding="0dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ic_close_black_24dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_margin="0dp"
+                android:adjustViewBounds="true"
+                android:clickable="false"
+                android:elevation="10dp"
+                android:padding="0dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ic_close_black_24dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/fila2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:layout_margin="0dp"
+                android:adjustViewBounds="true"
+                android:clickable="false"
+                android:elevation="10dp"
+                android:padding="0dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ic_close_black_24dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="0dp"
+                android:adjustViewBounds="true"
+                android:clickable="false"
+                android:elevation="10dp"
+                android:padding="0dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ic_radio_button_unchecked_black_24dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="0dp"
+                android:adjustViewBounds="true"
+                android:clickable="false"
+                android:elevation="10dp"
+                android:padding="0dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ic_close_black_24dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/fila3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="0dp"
+                android:adjustViewBounds="true"
+                android:clickable="false"
+                android:elevation="10dp"
+                android:padding="0dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ic_close_black_24dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="0dp"
+                android:adjustViewBounds="true"
+                android:clickable="false"
+                android:elevation="10dp"
+                android:padding="0dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ic_close_black_24dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="0dp"
+                android:adjustViewBounds="true"
+                android:clickable="false"
+                android:elevation="10dp"
+                android:padding="0dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ic_close_black_24dp" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/tvJugadorActual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/texto_arriba"
+        android:textSize="24sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

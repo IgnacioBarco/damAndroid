@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.nacho.tarea02.MainActivity">
+    <item
+        android:id="@+id/menuJugar"
+        android:orderInCategory="100"
+        android:title="@string/menu_juego" />
+    <item
+        android:id="@+id/menuInstrucciones"
+        android:title="@string/menu_instrucciones" />
+    <item
+        android:id="@+id/menuConfigurar"
+        android:title="@string/menu_configurar" />
+</menu>
